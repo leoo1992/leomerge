@@ -12,7 +12,8 @@ permissions:
 jobs:
   quality:
     runs-on: ubuntu-latest
-    steps:
+    
+    timeout-minutes: 20steps:
       - name: Checkout
         uses: actions/checkout@v4
 
